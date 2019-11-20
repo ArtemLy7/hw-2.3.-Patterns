@@ -21,10 +21,6 @@ public class testCardDeliveryDate {
         LocalDate newDay = today.plusDays(4);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
         changeDay = newDay.format(formatter);
-        //LocalDate today = LocalDate.now();
-        //LocalDate newDay = today.plusDays(1);
-        //DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-        //changeDay = newDay.format(formatter);
     }
 
    @Test
